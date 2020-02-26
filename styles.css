@@ -1,0 +1,17 @@
+h2:hover{
+    color:#FFC107;
+}
+
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.teko{
+    font-family: 'Teko', sans-serif;
+    font-size: 55px;
+}
+#container{
+    margin-top: 10px;
+    border: 3px solid black;
+    padding: 5px 10px 5px 10px;
+}
