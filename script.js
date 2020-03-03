@@ -9,14 +9,14 @@ function jokes(){
                 });
               },
               error: function(){
-                  console.log("no va");
+                  console.log("Chuck Norris is not available, you're in trouble!");
               }
           });
 }
 
 /*
     Si la petició de dades és correcte, entra dins el success,
-    si no és correcta, entra dins de error i dona el missatge assignat.
+    si no és correcta, entra dins de l'error i dona el missatge assignat.
 
     var chistes = $("#resultat"); --> var chistes = document.getElementById("resultat");
 */
