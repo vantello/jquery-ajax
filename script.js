@@ -3,9 +3,9 @@ function jokes(){
               url: 'http://api.icndb.com/jokes/random',
               dataType: 'json',
               success: function(result){
-                  var chistes = $("#resultat");
+                  var jokes = $("#resultat");
                 $.each(result, function(index, elemento){
-                    chistes.text(elemento.joke); // S'assigna el text que es vol.
+                    jokes.text(elemento.joke); // S'assigna el text que es vol.
                 });
               },
               error: function(){

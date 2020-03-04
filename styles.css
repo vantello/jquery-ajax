@@ -4,7 +4,6 @@ body{
     user-select: none; /* Standard syntax */
     /* Evita que es pugui seleccionar res.*/
 }
-
 a:hover{
     color:#FFC107;
 }
@@ -15,7 +14,7 @@ a:hover{
 
 .teko{
     font-family: 'Teko', sans-serif;
-    font-size: 55px;
+    font-size: 35px;
 }
 #container{
     margin-top: 10px;
