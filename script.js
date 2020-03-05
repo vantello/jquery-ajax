@@ -1,6 +1,6 @@
 function jokes(){  
           $.ajax({
-              url: 'http://api.icndb.com/jokes/random',
+              url: 'https://api.icndb.com/jokes/random',
               dataType: 'json',
               success: function(result){
                   var jokes = $("#resultat");
